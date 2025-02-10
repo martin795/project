@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Box Model Image */
+.box-model-image {
+    border: 5px solid #333;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+}
+
+/* Rollover Image */
+.rollover-image:hover {
+    opacity: 0.7;
+}
+
+/* Invisible Borders Table */
+.invisible-borders {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.invisible-borders td, .invisible-borders th {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Visible Borders Table */
+.visible-borders {
+    width: 100%;
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+
+.visible-borders td, .visible-borders th {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
